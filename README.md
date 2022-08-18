@@ -1,7 +1,7 @@
 # Mini-Project-2
 Mini Project 2 for Track 2 - SDA - Software QA Bootcamp
 
-## Table Of Contents
+## Table of Contents
 * [Introduction](#introduction)
 * [Codes And Screenshot](#codes-and-screenshot)
   * [Before running the code](#before-running-the-code)
@@ -21,7 +21,7 @@ As Team 5 (UltraPower) we decide to use in the Mini Project 2 [Abdul samad Al Qu
 > About [Abdul samad Al Qurashi](https://store.asqgrp.com/sa_en/) website: master of royal perfume, one of the best perfume and oud companies in the world for more than 150 years.
 
 
-For more information bout our Mini Prjoect 2 check the [Presentation](https://youtu.be/BxPXhKZCUUw?t=2874)
+For more information about our Mini Prjoect 2 check the [Presentation](https://youtu.be/BxPXhKZCUUw?t=2874)
 
 ---
 ## Codes And Screenshot
@@ -30,7 +30,7 @@ For more information bout our Mini Prjoect 2 check the [Presentation](https://yo
 There are some steps that need to take considered:
 
 #### First:
-Setup the JDK [Web Driver](https://www.oracle.com/java/technologies/downloads/),[Eclipse](https://www.eclipse.org/)
+Setup the [JDK](https://www.oracle.com/java/technologies/downloads/),[Eclipse](https://www.eclipse.org/)
 
 And setup latest [Web Driver](https://chromedriver.chromium.org/downloads) for Chrome Driver. 
 
