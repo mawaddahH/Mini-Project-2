@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Aug 19 01:08:18 AST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>188 seconds (188311 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.TestCasesFrom14and16.TC_14()'><b>TC_14</b><br>Test class: testcases.TestCasesFrom14and16<br>Test method: Verify if the user can continue ordering the product without select the Bottle Capacity</td>
+<td></td>
+<td>24</td>
+<td>testcases.TestCasesFrom14and16@77167fb7</td></tr>
+<tr>
+<td title='testcases.TestCasesFrom1To3.TC_02()'><b>TC_02</b><br>Test class: testcases.TestCasesFrom1To3<br>Test method: Verifiy if the user cannot sign in to the website with invalid email and password</td>
+<td></td>
+<td>18</td>
+<td>testcases.TestCasesFrom1To3@309e345f</td></tr>
+<tr>
+<td title='testcases.TestCasesFrom8To13.TC_13()'><b>TC_13</b><br>Test class: testcases.TestCasesFrom8To13<br>Test method:  check if the user can see the "You deleted the address." message when he deletes his address in "additional address entries" successfully.</td>
+<td></td>
+<td>20</td>
+<td>testcases.TestCasesFrom8To13@4445629</td></tr>
+<tr>
+<td title='testcases.TestCasesFrom8To13.TC_08()'><b>TC_08</b><br>Test class: testcases.TestCasesFrom8To13<br>Test method: Edit Contact Information and fill all the require field then save the page.</td>
+<td></td>
+<td>25</td>
+<td>testcases.TestCasesFrom8To13@4445629</td></tr>
+<tr>
+<td title='testcases.TestCasesFrom8To13.TC_09()'><b>TC_09</b><br>Test class: testcases.TestCasesFrom8To13<br>Test method: Edit Contact Information and clear one the require field then save.</td>
+<td></td>
+<td>18</td>
+<td>testcases.TestCasesFrom8To13@4445629</td></tr>
+<tr>
+<td title='testcases.TestCasesFrom14and16.TC_16()'><b>TC_16</b><br>Test class: testcases.TestCasesFrom14and16<br>Test method: test if the user cannot continued payment without select the shipping details</td>
+<td></td>
+<td>22</td>
+<td>testcases.TestCasesFrom14and16@77167fb7</td></tr>
+<tr>
+<td title='testcases.TestCasesFrom8To13.TC_10()'><b>TC_10</b><br>Test class: testcases.TestCasesFrom8To13<br>Test method: Click on change password and in current password will enter diffrent password from current password.</td>
+<td></td>
+<td>35</td>
+<td>testcases.TestCasesFrom8To13@4445629</td></tr>
+<tr>
+<td title='testcases.TestCasesFrom1To3.TC_01()'><b>TC_01</b><br>Test class: testcases.TestCasesFrom1To3<br>Test method:  Verifiy if the user can sign in to the website with valid email and password</td>
+<td></td>
+<td>18</td>
+<td>testcases.TestCasesFrom1To3@309e345f</td></tr>
+<tr>
+<td title='testcases.TestCasesFrom8To13.TC_12()'><b>TC_12</b><br>Test class: testcases.TestCasesFrom8To13<br>Test method:  check if the user can see the "You saved the address" message when he edits his address in "default billing address" successfully.</td>
+<td></td>
+<td>26</td>
+<td>testcases.TestCasesFrom8To13@4445629</td></tr>
+<tr>
+<td title='testcases.TestCasesFrom1To3.TC_03()'><b>TC_03</b><br>Test class: testcases.TestCasesFrom1To3<br>Test method: Verify if the user can open the long important notice for a long time to be able to read.</td>
+<td></td>
+<td>12</td>
+<td>testcases.TestCasesFrom1To3@309e345f</td></tr>
+</table><p>
+</body>
+</html>
