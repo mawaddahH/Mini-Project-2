@@ -10,7 +10,7 @@ Mini Project 2 for Track 2 - SDA - Software QA Bootcamp
   * [TestCasesFrom8To13 class](#testcasesfrom8to13-class)
   * [TestCasesFrom14and16 class](#testcasesfrom14and16-class)
   * [XML file](#xml-file)
-* [Team Members](#team-embers)
+* [Team Members](#team-members)
 
   
 ---
@@ -552,10 +552,10 @@ https://user-images.githubusercontent.com/48597284/185499478-44c9954a-0457-45f4-
 
 ---
 ## Team Members
-1. Lulua Alhumaid - Team leader
-2. Mawaddah Hanbali - Deputy Team Leader
-3. Bashayer Alshaheen - Member
-4. Howra Binabdi - Member
-5. Kholoud Yaslim - Member
-6. Lama Alamro - Member
+1. `Lulua Alhumaid` - Team leader
+2. `Mawaddah Hanbali` - Deputy Team Leader
+3. `Bashayer Alshaheen` - Member
+4. `Howra Binabdi` - Member
+5. `Kholoud Yaslim` - Member
+6. `Lama Alamro` - Member
 
