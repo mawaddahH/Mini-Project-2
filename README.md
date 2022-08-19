@@ -1,7 +1,7 @@
 # Mini-Project-2
 Mini Project 2 for Track 2 - SDA - Software QA Bootcamp
 
-## Table of Contents
+# Table of Contents
 * [Introduction](#introduction)
 * [Codes And Screenshot](#codes-and-screenshot)
   * [Before running the code](#before-running-the-code)
@@ -14,7 +14,7 @@ Mini Project 2 for Track 2 - SDA - Software QA Bootcamp
 
   
 ---
-## Introduction
+# Introduction
 As Team 5 (UltraPower) we decide to use in the Mini Project 2 [Abdul samad Al Qurashi](https://store.asqgrp.com/sa_en/) website for testing using Selenium and TestNG framework.
 
 
@@ -24,12 +24,12 @@ As Team 5 (UltraPower) we decide to use in the Mini Project 2 [Abdul samad Al Qu
 For more information about our Mini Prjoect 2 check the [Presentation](https://youtu.be/BxPXhKZCUUw?t=2874)
 
 ---
-## Codes And Screenshot
+# Codes And Screenshot
 
-### Before running the code
+## Before running the code
 There are some steps that need to take considered:
 
-#### First:
+### First:
 Setup the [JDK](https://www.oracle.com/java/technologies/downloads/),[Eclipse](https://www.eclipse.org/)
 
 And setup latest [Web Driver](https://chromedriver.chromium.org/downloads) for Chrome Driver. 
@@ -39,13 +39,13 @@ Donwload the necessary jar files:
 - [TestNG](http://www.java2s.com/Code/Jar/t/Downloadtestng685jar.htm)  (Lastest).
 - [jcommander](http://www.java2s.com/Code/Jar/j/Downloadjcommanderjar.htm)  (Lastest). 
 
-#### Second:
+### Second:
 Add them as a library in the classpath of the project
 - _click-reight on the file project >Build path > configure Bild path > Java Build Path > Libraries > classpath > add external JARs > Apply and close_
 
 ---
-### Code Details
-#### STEP 1: In the project we created 3 classes depending on the function of our website which are:
+## Code Details
+### STEP 1: In the project we created 3 classes depending on the function of our website which are:
 - `Create Account`: TestCasesFrom1To3
 - `Account Setting`: TestCasesFrom8To13
 - `Create new order`: TestCasesFrom14and16
@@ -55,7 +55,7 @@ Add them as a library in the classpath of the project
 </p>
 
 
-#### STEP 2: we used TestNG `annotation` such as:
+### STEP 2: we used TestNG `annotation` such as:
 - `@BeforeSuite`: setup the web driver and browser
 - `@BeforeTest`: for sign-in
 - `@BeforeMethod`: navigate to the page on the website
@@ -71,7 +71,7 @@ https://user-images.githubusercontent.com/48597284/185479013-c9ea2e62-252c-4bf5-
 </p>
 
 
-#### STEP 3: we specified the `attributes` in a `@Test` annotation such as:
+### STEP 3: we specified the `attributes` in a `@Test` annotation such as:
 - `priority`: to order each test case.
 - `groups`: to group the test depending on the function name.
 - `testName`: name of the test case depends on the Test case document.
@@ -85,7 +85,7 @@ https://user-images.githubusercontent.com/48597284/185479013-c9ea2e62-252c-4bf5-
 </p>
 
 
-#### STEP 4: we used a `listener` to listen to the events happening in the automation
+### STEP 4: we used a `listener` to listen to the events happening in the automation
 
 <p align="center">
 
@@ -95,7 +95,7 @@ https://user-images.githubusercontent.com/48597284/185480177-c2a7c4fd-70a6-428f-
 
 
 
-#### STEP 5: we used an `XML file` to run these `3 classes` as parallel using `4 threads`.
+### STEP 5: we used an `XML file` to run these `3 classes` as parallel using `4 threads`.
 
 <p align="center">
 
@@ -104,14 +104,14 @@ https://user-images.githubusercontent.com/48597284/185481143-55d18dc6-95a7-4bad-
 </p>
 
 
-#### STEP 6: we used the following code to take the `thread ID` for each method run in the class
+### STEP 6: we used the following code to take the `thread ID` for each method run in the class
 
 ```md
 long id = Thread.currentThread().getId();
 ```
 ---
 
-### TestCasesFrom1To3 class
+## TestCasesFrom1To3 class
 It for `Create Account` function and it contain 3 Test cases:
 - Test case `TC_03`:
 
@@ -218,7 +218,7 @@ https://user-images.githubusercontent.com/48597284/185503044-9f10a439-ef4e-4987-
 
 ---
 
-### TestCasesFrom8To13 class
+## TestCasesFrom8To13 class
 It for `Account Setting` function and it contain 5 Test cases:
 - Test case `TC_08`:
 
@@ -426,7 +426,7 @@ https://user-images.githubusercontent.com/48597284/185497136-3bf886bd-6daa-4035-
 
 ---
 
-### TestCasesFrom14and16 class
+## TestCasesFrom14and16 class
 It for `Create new order` function and it contain 2 Test cases:
 - Test case `TC_14`:
 
@@ -513,7 +513,7 @@ https://user-images.githubusercontent.com/48597284/185498783-b17056f4-882b-49cb-
 
 ---
 
-### XML file
+## XML file
 To run the `3 classes` as parallel using `4 threads`.
 
 ```md
@@ -551,7 +551,7 @@ https://user-images.githubusercontent.com/48597284/185499478-44c9954a-0457-45f4-
 </p>
 
 ---
-## Team Members
+# Team Members
 1. `Lulua Alhumaid` - Team leader
 2. `Mawaddah Hanbali` - Deputy Team Leader
 3. `Bashayer Alshaheen` - Member
